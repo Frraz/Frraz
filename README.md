@@ -1,86 +1,102 @@
-# 👋 Olá, me chamo Warley Ferraz
+<!-- README in 🇧🇷 Portuguese -->
 
-Sou formado em **Análise e Desenvolvimento de Sistemas** e atualmente sou estudante de **Desenvolvimento Full Stack** e **DevOps**. Tenho interesse em tecnologia, automações, infraestrutura e desenvolvimento web, com foco em construir soluções eficientes e escaláveis.
+<!-- Banner GIF com link para perfil -->
+<p align="center">
+  <a href="https://github.com/Frraz" title="Meu GitHub">
+    <img src="https://i.pinimg.com/originals/a5/d1/f6/a5d1f61e89bdce061817723044f8a757.gif" width="100%" alt="Banner animado" />
+  </a>
+</p>
 
----
+<!-- Contador de visualizações -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Frraz&style=flat-square&color=33215f" alt="Visualizações de Perfil" />
+</p>
 
-## 💼 Atuação Profissional
-
-- **Projetista de Crédito Rural** na *Alfa Projects*  
-  Responsável pela elaboração de projetos técnicos para financiamento agrícola, análise de viabilidade, acompanhamento de propostas e relacionamento com instituições financeiras.
-
----
-
-## 🚀 Habilidades
-
-### Linguagens & Tecnologias
-
-![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-
-### Sistemas Operacionais
-
-![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Kali](https://img.shields.io/badge/kali-linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
-### Ferramentas & Plataformas
-
-![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Notion](https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+<!-- Links rápidos para redes sociais no topo -->
+<p align="center">
+  <a href="mailto:warley.ferraz.wf@gmail.com" title="Email"><strong>✉️ Email</strong></a> • 
+  <a href="https://www.linkedin.com/in/warley-ferraz-almeida-280a55185/" title="LinkedIn"><strong>🔗 LinkedIn</strong></a> • 
+  <a href="https://github.com/Frraz" title="GitHub"><strong>🐱 GitHub</strong></a>
+</p>
 
 ---
 
-## 📚 Formação Acadêmica
+## 💻 Projetos em Destaque 🚀
 
-- **Tecnólogo em Análise e Desenvolvimento de Sistemas**  
-  *Uniasselvi*  
-  2025
+<p align="center">
+  <a href="https://github.com/Frraz/Gestao-Agro" title="Gestão rural eficiente para produtores agrícolas.">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gestao-Agro&bg_color=33215f&border_color=ffffff&title_color=ffffff&text_color=ffffff" alt="Projeto Gestão Agro" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Frraz/Gerador-de-KML" title="Ferramenta para gerar arquivos KML de forma automatizada.">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gerador-de-KML&bg_color=33215f&border_color=ffffff&title_color=ffffff&text_color=ffffff" alt="Projeto Gerador de KML" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Frraz/Portifoliov2" title="Meu portfólio pessoal atualizado, versão 2.">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Portifoliov2&bg_color=33215f&border_color=ffffff&title_color=ffffff&text_color=ffffff" alt="Projeto Portfólio V2" />
+  </a>
+</p>
 
----
+**Descrição dos projetos:**
 
-## 💻 Projetos em Destaque
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gestao-Agro&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/Frraz/Gestao-Agro)
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gerador-de-KML&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/Frraz/Gerador-de-KML)
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Portifoliov2&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/Frraz/Portifoliov2)
-
----
-
-## 📊 Estatísticas do GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Frraz&theme=transparent&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Frraz&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
+- Gestão Agro: Gestão rural eficiente para produtores agrícolas.
+- Gerador de KML: Ferramenta para gerar arquivos KML de forma automatizada.
+- Portfólio V2: Meu portfólio pessoal atualizado, versão 2.
 
 ---
 
-## 🌱 Atualmente estudando
+<details>
+  <summary>📊 Estatísticas do GitHub</summary>
 
-- Desenvolvimento Java  
-- Práticas e ferramentas DevOps  
-- Fundamentos de Cybersecurity  
-- Desenvolvimento Web Full Stack  
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Frraz&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&title_color=33215f&icon_color=33215f&text_color=ffffff" width="48%" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Frraz&theme=dark&hide_border=true&background=00000000&ring=33215f&currStreakLabel=ffffff" width="48%" alt="GitHub Streak" />
+  </p>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Frraz&layout=donut&theme=dark&hide_border=true&langs_count=6&bg_color=00000000&text_color=ffffff&title_color=33215f" width="50%" alt="Top Linguagens" />
+  </p>
+
+  <p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=Frraz&theme=darkhub&row=1&margin-w=10&margin-h=10" alt="Troféus GitHub" />
+  </p>
+</details>
+
+---
+
+## 🌱 Estou estudando
+
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li>Java</li>
+        <li>DevOps</li>
+        <li>Cybersecurity</li>
+        <li>Full Stack Web</li>
+      </ul>
+    </td>
+    <td>
+      <img src="https://i.pinimg.com/originals/d5/f3/e7/d5f3e7e33f8072785936fe88cd16f502.gif" width="260" alt="Gif estudando" style="vertical-align:middle;" />
+    </td>
+  </tr>
+</table>
+
 
 ---
 
 ## 📫 Contato
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:warley.ferraz.wf@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ferraz.____/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5594992083253)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/warley-ferraz-almeida-280a55185/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Frraz)
+<p align="center">
+  <a href="mailto:warley.ferraz.wf@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-33215f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.instagram.com/ferraz.____/" title="Instagram"><img src="https://img.shields.io/badge/Instagram-33215f?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://wa.me/5594992083253" title="WhatsApp"><img src="https://img.shields.io/badge/WhatsApp-33215f?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://www.linkedin.com/in/warley-ferraz-almeida-280a55185/" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-33215f?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/Frraz" title="GitHub"><img src="https://img.shields.io/badge/GitHub-33215f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
 ---
 
-> “Tecnologia é meio, não fim — e eu busco usar a tecnologia como ferramenta de transformação.”
+<p align="center"><em>“Tecnologia é meio, não fim — e eu busco usar a tecnologia como ferramenta de transformação.”</em></p>
+
+<p align="center"><sub>📌 Este README é atualizado regularmente.</sub></p>
