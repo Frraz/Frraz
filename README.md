@@ -56,31 +56,32 @@
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Frraz&layout=donut&theme=dark&hide_border=true&langs_count=6&bg_color=00000000&text_color=ffffff&title_color=33215f" width="50%" alt="Top Linguagens" />
   </p>
-
-  <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=Frraz&theme=darkhub&row=1&margin-w=10&margin-h=10" alt="Troféus GitHub" />
-  </p>
 </details>
 
 ---
 
-## 🌱 Estou estudando
+## 🌱 Atualmente estudando
 
 <table>
   <tr>
     <td>
-      <ul>
-        <li>Java</li>
-        <li>DevOps</li>
-        <li>Cybersecurity</li>
-        <li>Full Stack Web</li>
-      </ul>
-    </td>
-    <td>
-      <img src="https://i.pinimg.com/originals/d5/f3/e7/d5f3e7e33f8072785936fe88cd16f502.gif" width="260" alt="Gif estudando" style="vertical-align:middle;" />
-    </td>
+
+<ul>
+  <li>Java</li>
+  <li>DevOps</li>
+  <li>Cybersecurity</li>
+  <li>Desenvolvimento Full Stack Web</li>
+</ul>
+
+</td>
+<td align="right">
+
+<img src="https://i.pinimg.com/originals/d5/f3/e7/d5f3e7e33f8072785936fe88cd16f502.gif" alt="Gif estudando" width="230"/>
+
+</td>
   </tr>
 </table>
+
 
 
 ---
