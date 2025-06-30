@@ -30,12 +30,6 @@
   </a>
 </p>
 
-**Descrição dos projetos:**
-
-- Gestão Agro: Gestão rural eficiente para produtores agrícolas.
-- Gerador de KML: Ferramenta para gerar arquivos KML de forma automatizada.
-- Portfólio V2: Meu portfólio pessoal atualizado, versão 2.
-
 ---
 
 <details>
