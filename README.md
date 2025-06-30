@@ -18,15 +18,15 @@
 
 <p align="center">
   <a href="https://github.com/Frraz/Gestao-Agro" title="Gestão rural eficiente para produtores agrícolas.">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gestao-Agro&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Gestão Agro" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gestao-Agro&cache_seconds=180&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Gestão Agro" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/Frraz/Gerador-de-KML" title="Ferramenta para gerar arquivos KML de forma automatizada.">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gerador-de-KML&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Gerador de KML" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Gerador-de-KML&cache_seconds=180&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Gerador de KML" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/Frraz/Portifoliov2" title="Meu portfólio pessoal atualizado, versão 2.">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Portifoliov2&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Portfólio V2" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Portifoliov2&cache_seconds=180&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Portfólio V2" />
   </a>
 </p>
 
