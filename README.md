@@ -9,7 +9,7 @@ Evite hotlink: considere mover imagens para ./assets
 
 <p align="center">
   <a href="https://github.com/Frraz" title="Meu GitHub">
-    <img src="https://i.pinimg.com/originals/a5/d1/f6/a5d1f61e89bdce061817723044f8a757.gif" width="100%" alt="Banner animado" />
+    <img src="https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1691972871814-F7PKM9B2RI5KR1HTNPWP/image-asset.gif?format=1500w" width="100%" alt="Banner animado" />
   </a>
 </p>
 
@@ -96,43 +96,87 @@ Evite hotlink: considere mover imagens para ./assets
 ## 🚀 Projetos em Destaque
 
 <!--
-Os cards do github-readme-stats podem falhar por rate limit.
-Implementamos fallback com "cards manuais" e mantivemos uma grade responsiva.
-Edite os textos conforme seus projetos.
+Melhoria drástica:
+1) Cards próprios (100% estáveis) usando apenas HTML+texto (sem serviços externos).
+2) Cada card tem título, descrição curta, stack/badges e links claros (Repo • Demo • Docs).
+3) Responsivos: max-width fixa, largura em %, quebra automática em telas menores.
+4) Acessibilidade: alt text e hierarquia consistente.
+Se quiser trocar por imagens, salve em ./assets/projects e ajuste os src.
 -->
 
-<!-- Linha 1: Cards manuais (fallback), 2 por linha -->
 <div align="center">
 
-<a href="https://github.com/Frraz/Gestao-Agro" title="Gestão rural eficiente para produtores agrícolas">
-  <picture>
-    <!-- Card manual, estável -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://dummyimage.com/640x360/1e1e2f/ffffff&text=Gest%C3%A3o+Agro+%7C+Python%2FDjango%2BPostgreSQL">
-    <img alt="Gestão Agro — Python/Django + PostgreSQL" src="https://dummyimage.com/640x360/1e1e2f/ffffff&text=Gest%C3%A3o+Agro+%7C+Python%2FDjango%2BPostgreSQL" width="49%">
-  </picture>
-</a>
+<!-- Grade responsiva: 2 colunas no desktop, 1 no mobile -->
+<!-- Card 1 -->
+<div style="display:inline-block; vertical-align:top; width:49%; max-width:520px; margin:0.5rem;">
+  <a href="https://github.com/Frraz/Gestao-Agro" title="Abrir repositório: Gestão Agro">
+    <div style="background:#1e1e2f; border:1px solid #33215f; border-radius:12px; padding:18px; text-align:left;">
+      <h3 style="margin:0 0 8px; color:#c084fc;">Gestão Agro</h3>
+      <p style="margin:0 0 12px; color:#e0e0e0;">Plataforma de gestão rural para produtores agrícolas: cadastros, fluxo operacional, relatórios.</p>
+      <p style="margin:0 0 12px;">
+        <img alt="Python" src="https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white">
+        <img alt="Django" src="https://img.shields.io/badge/Django-6B46C1?style=flat-square&logo=django&logoColor=white">
+        <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-6B46C1?style=flat-square&logo=postgresql&logoColor=white">
+        <img alt="Docker" src="https://img.shields.io/badge/Docker-6D28D9?style=flat-square&logo=docker&logoColor=white">
+      </p>
+      <p style="margin:0;">
+        <a href="https://github.com/Frraz/Gestao-Agro" style="color:#c084fc;">Repo</a>
+        •
+        <a href="#" style="color:#c084fc;" title="Demo (se disponível)">Demo</a>
+        •
+        <a href="#" style="color:#c084fc;" title="Documentação">Docs</a>
+      </p>
+    </div>
+  </a>
+</div>
 
-<a href="https://github.com/Frraz/Gerador-de-KML" title="Ferramenta para gerar arquivos KML de forma automatizada">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://dummyimage.com/640x360/1e1e2f/ffffff&text=Gerador+de+KML+%7C+Python%2FFastAPI">
-    <img alt="Gerador de KML — Python/FastAPI" src="https://dummyimage.com/640x360/1e1e2f/ffffff&text=Gerador+de+KML+%7C+Python%2FFastAPI" width="49%">
-  </picture>
-</a>
+<!-- Card 2 -->
+<div style="display:inline-block; vertical-align:top; width:49%; max-width:520px; margin:0.5rem;">
+  <a href="https://github.com/Frraz/Gerador-de-KML" title="Abrir repositório: Gerador de KML">
+    <div style="background:#1e1e2f; border:1px solid #33215f; border-radius:12px; padding:18px; text-align:left;">
+      <h3 style="margin:0 0 8px; color:#c084fc;">Gerador de KML</h3>
+      <p style="margin:0 0 12px; color:#e0e0e0;">API e CLI para gerar arquivos KML de forma automatizada a partir de dados geoespaciais.</p>
+      <p style="margin:0 0 12px;">
+        <img alt="Python" src="https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white">
+        <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-5B21B6?style=flat-square&logo=fastapi&logoColor=white">
+        <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-6B46C1?style=flat-square&logo=postgresql&logoColor=white">
+      </p>
+      <p style="margin:0;">
+        <a href="https://github.com/Frraz/Gerador-de-KML" style="color:#c084fc;">Repo</a>
+        •
+        <a href="#" style="color:#c084fc;" title="Demo (se disponível)">Demo</a>
+        •
+        <a href="#" style="color:#c084fc;" title="Documentação">Docs</a>
+      </p>
+    </div>
+  </a>
+</div>
+
+<!-- Card 3 -->
+<div style="display:inline-block; vertical-align:top; width:49%; max-width:520px; margin:0.5rem;">
+  <a href="https://github.com/Frraz/Portifoliov2" title="Abrir repositório: Portfólio v2">
+    <div style="background:#1e1e2f; border:1px solid #33215f; border-radius:12px; padding:18px; text-align:left;">
+      <h3 style="margin:0 0 8px; color:#c084fc;">Portfólio v2</h3>
+      <p style="margin:0 0 12px; color:#e0e0e0;">Portfólio moderno com foco em performance e identidade visual dark/lilás.</p>
+      <p style="margin:0 0 12px;">
+        <img alt="Full Stack" src="https://img.shields.io/badge/Full%20Stack-7C3AED?style=flat-square&logo=codefactor&logoColor=white">
+        <img alt="AWS" src="https://img.shields.io/badge/AWS-33215f?style=flat-square&logo=amazonaws&logoColor=white">
+      </p>
+      <p style="margin:0;">
+        <a href="https://github.com/Frraz/Portifoliov2" style="color:#c084fc;">Repo</a>
+        •
+        <a href="#" style="color:#c084fc;" title="Demo (se disponível)">Demo</a>
+        •
+        <a href="#" style="color:#c084fc;" title="Documentação">Docs</a>
+      </p>
+    </div>
+  </a>
+</div>
 
 </div>
 
-<!-- Linha 2: Cards dinâmicos (se estiverem estáveis) -->
 <p align="center">
-  <a href="https://github.com/Frraz/Portifoliov2" title="Meu portfólio pessoal atualizado, versão 2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Frraz&repo=Portifoliov2&cache_seconds=7200&bg_color=1e1e2f&border_color=33215f&title_color=c084fc&text_color=e0e0e0" alt="Projeto Portfólio V2" width="49%" />
-  </a>
-  <a href="https://github.com/Frraz" title="Mais projetos">
-    <img src="https://github-readme-stats.vercel.app/api?username=Frraz&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=1e1e2f&title_color=c084fc&icon_color=c084fc&text_color=e0e0e0" alt="Explorar repositórios" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <sub>Se os cartões dinâmicos falharem, os cards manuais permanecem visíveis. Ajuste os textos e, se preferir, substitua por imagens próprias em ./assets.</sub>
+  <sub>Dica: adicione links reais de Demo e Docs quando disponíveis. Se preferir imagens, exporte cards para ./assets/projects e substitua o conteúdo dos divs por <img> com width="100%".</sub>
 </p>
 
 ---
