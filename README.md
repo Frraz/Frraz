@@ -13,7 +13,7 @@
 <!-- ░░░░░░░░░░░░░░░░░░░░░░  BANNER  ░░░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
   <a href="https://github.com/Frraz">
-    <img src="https://i.redd.it/5c612iy7q5ia1.gif" width="100%" alt="Banner" />
+    <img src="MatrixFilme.gif" width="50%" alt="Banner" />
   </a>
 </div>
 
