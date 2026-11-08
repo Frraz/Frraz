@@ -36,39 +36,39 @@ Separadas pela origem do que sei: quanto mais forte o vermelho, mais perto do tr
 
 **No trabalho**
 
-![GPON/FTTH](https://img.shields.io/badge/GPON%2FFTTH-C40F2C?style=flat-square)
-![ONU e ONT](https://img.shields.io/badge/ONU%20e%20ONT-C40F2C?style=flat-square)
-![OLTs](https://img.shields.io/badge/OLTs-C40F2C?style=flat-square)
-![Zabbix](https://img.shields.io/badge/Zabbix-C40F2C?style=flat-square)
-![Grafana](https://img.shields.io/badge/Grafana-C40F2C?style=flat-square)
-![Plataformas ACS](https://img.shields.io/badge/Plataformas%20ACS-C40F2C?style=flat-square)
-![IXC Provedor](https://img.shields.io/badge/IXC%20Provedor-C40F2C?style=flat-square)
+![GPON/FTTH](assets/selos/gpon-ftth.svg)
+![ONU e ONT](assets/selos/onu-e-ont.svg)
+![OLTs](assets/selos/olts.svg)
+![Zabbix](assets/selos/zabbix.svg)
+![Grafana](assets/selos/grafana.svg)
+![Plataformas ACS](assets/selos/plataformas-acs.svg)
+![IXC Provedor](assets/selos/ixc-provedor.svg)
 
 **Nos meus servidores**
 
-![Ubuntu Server](https://img.shields.io/badge/Ubuntu%20Server-5E0712?style=flat-square)
-![Bash](https://img.shields.io/badge/Bash-5E0712?style=flat-square)
-![systemd](https://img.shields.io/badge/systemd-5E0712?style=flat-square)
-![Nginx](https://img.shields.io/badge/Nginx-5E0712?style=flat-square)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-5E0712?style=flat-square)
-![UFW](https://img.shields.io/badge/UFW-5E0712?style=flat-square)
-![Let's Encrypt](https://img.shields.io/badge/Let%27s%20Encrypt-5E0712?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-5E0712?style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-5E0712?style=flat-square)
-![Python](https://img.shields.io/badge/Python-5E0712?style=flat-square)
-![Django](https://img.shields.io/badge/Django-5E0712?style=flat-square)
-![Celery](https://img.shields.io/badge/Celery-5E0712?style=flat-square)
-![Redis](https://img.shields.io/badge/Redis-5E0712?style=flat-square)
+![Ubuntu Server](assets/selos/ubuntu-server.svg)
+![Bash](assets/selos/bash.svg)
+![systemd](assets/selos/systemd.svg)
+![Nginx](assets/selos/nginx.svg)
+![Docker Compose](assets/selos/docker-compose.svg)
+![UFW](assets/selos/ufw.svg)
+![Let's Encrypt](assets/selos/let-s-encrypt.svg)
+![PostgreSQL](assets/selos/postgresql.svg)
+![GitHub Actions](assets/selos/github-actions.svg)
+![Python](assets/selos/python.svg)
+![Django](assets/selos/django.svg)
+![Celery](assets/selos/celery.svg)
+![Redis](assets/selos/redis.svg)
 
 **Em laboratório e estudo**
 
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-1C0A0E?style=flat-square)
-![Nmap](https://img.shields.io/badge/Nmap-1C0A0E?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-1C0A0E?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-1C0A0E?style=flat-square)
-![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-1C0A0E?style=flat-square)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-1C0A0E?style=flat-square)
-![PortSwigger Academy](https://img.shields.io/badge/PortSwigger%20Academy-1C0A0E?style=flat-square)
+![Kali Linux](assets/selos/kali-linux.svg)
+![Nmap](assets/selos/nmap.svg)
+![Wireshark](assets/selos/wireshark.svg)
+![Burp Suite](assets/selos/burp-suite.svg)
+![Hack The Box](assets/selos/hack-the-box.svg)
+![TryHackMe](assets/selos/tryhackme.svg)
+![PortSwigger Academy](assets/selos/portswigger-academy.svg)
 
 Nunca trabalhei em cargo de segurança, SOC ou pentest. Busco a minha primeira oportunidade na área.
 
