@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Gera os banners e os selos de ferramentas em assets/.
-
-Os selos ficam no repositório para não depender de serviço externo: edite SELOS
-e rode o script de novo.
+"""Gera os banners claro e rubro em assets/.
 
 O ruído vira sinal: glifos hexadecimais caem ao fundo e pulsos de luz percorrem
 a placa de circuito do portfólio. O texto sai em curvas, porque um SVG aberto
@@ -49,17 +46,6 @@ TEMAS = {
         "forma": "#C40F2C", "chuva": "#14080A", "cabeca": "#A0001A",
         "chuva_texto": 0.05, "chuva_cena": 0.14, "placa": 0.5,
     },
-}
-
-
-# O tom indica a origem do conhecimento, do trabalho ao estudo.
-SELOS = {
-    "#C40F2C": ["GPON/FTTH", "ONU e ONT", "OLTs", "Zabbix", "Grafana", "Plataformas ACS", "IXC Provedor"],
-    "#5E0712": [
-        "Ubuntu Server", "Bash", "systemd", "Nginx", "Docker Compose", "UFW", "Let's Encrypt",
-        "PostgreSQL", "GitHub Actions", "Python", "Django", "Celery", "Redis",
-    ],
-    "#1C0A0E": ["Kali Linux", "Nmap", "Wireshark", "Burp Suite", "Hack The Box", "TryHackMe", "PortSwigger Academy"],
 }
 
 
@@ -183,31 +169,6 @@ def banner(nome_tema, mona_titulo, mona_texto, mono, placa_dados):
     )
 
 
-def selo(rotulo, cor, fonte):
-    corpo, altura, folga = 13, 26, 10
-    _, largura = fonte.curva(rotulo, corpo, 0, 0)
-    total = round(largura + 2 * folga)
-    d, _ = fonte.curva(rotulo, corpo, folga, altura / 2 + corpo * 0.35, casas=2)
-    return (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{total}" height="{altura}" viewBox="0 0 {total} {altura}" '
-        f'role="img" aria-label="{rotulo}"><title>{rotulo}</title>'
-        f'<rect x=".5" y=".5" width="{total - 1}" height="{altura - 1}" rx="2" fill="{cor}" stroke="#FF3646" stroke-opacity=".35"/>'
-        f'<path d="{d}" fill="#F2E7E5"/></svg>\n'
-    )
-
-
-def gerar_selos(fonte):
-    destino = RAIZ / "assets/selos"
-    destino.mkdir(parents=True, exist_ok=True)
-    total = 0
-    for cor, rotulos in SELOS.items():
-        for rotulo in rotulos:
-            slug = re.sub(r"[^a-z0-9]+", "-", rotulo.lower()).strip("-")
-            (destino / f"{slug}.svg").write_text(selo(rotulo, cor, fonte), encoding="utf-8")
-            total += 1
-    print(f"assets/selos: {total} selos")
-
-
 def main():
     fontes = PORTFOLIO / "src/fontes"
     mona_titulo = Fonte(fontes / "mona-sans.woff2", wdth=112, wght=640)
@@ -221,7 +182,6 @@ def main():
         arquivo = destino / f"banner-{nome_tema}.svg"
         arquivo.write_text(svg, encoding="utf-8")
         print(f"{arquivo.relative_to(RAIZ)}: {len(svg.encode()) / 1024:.0f} KB")
-    gerar_selos(Fonte(fontes / "mona-sans.woff2", wdth=100, wght=550))
 
 
 if __name__ == "__main__":

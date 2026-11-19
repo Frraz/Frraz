@@ -4,77 +4,60 @@
   <img alt="Warley Ferraz Almeida, Analista de Redes N2 em NOC" src="https://raw.githubusercontent.com/Frraz/Frraz/main/assets/banner-rubro.svg" width="100%">
 </picture>
 
-### Acho o sinal no meio do ruído.
+### Analista de Redes N2 em NOC. Coloco sistemas em produção em Linux e respondo por eles depois do deploy.
 
-Monitoro uma rede de fibra óptica em um provedor de internet. Passo o dia entre as métricas do Zabbix e do Grafana, procurando a anomalia que importa ou o motivo de uma ONU ter parado de autenticar. Em paralelo, estudo para proteger redes como essa.
+Trabalho no NOC de um provedor de fibra óptica. Fora dele, desenvolvo sistemas de gestão para clientes e cuido do que vem depois do código: servidor, deploy, backup e monitoramento. Estudo Segurança Cibernética na FIAP para proteger a infraestrutura que já opero.
 
-Me encontre em [warley.ferzion.com.br](https://warley.ferzion.com.br), no [LinkedIn](https://www.linkedin.com/in/warley-ferraz-almeida/) ou por [e-mail](mailto:warley.ferraz.wf@gmail.com).
+**Procuro vaga técnica remota em infraestrutura Linux, NOC e redes ou DevOps. [Me escreva](mailto:warley.ferraz.wf@gmail.com).**<br>
+Também estou no [LinkedIn](https://www.linkedin.com/in/warley-ferraz-almeida/) e em [warley.ferzion.com.br](https://warley.ferzion.com.br).
 
-## Agora
+## O que eu faço
 
-- **No NOC da Linknet,** de casa, diagnosticando incidentes em redes GPON/FTTH.
-- **Na FIAP,** cursando Segurança Cibernética até 2028, do fundamento para cima.
-- **Nos meus servidores,** mantendo sistemas próprios em VPS Linux, com Nginx, Docker, backup e deploy em Bash com healthcheck e rollback.
-- **Em laboratórios,** treinando no Hack The Box, no TryHackMe e na PortSwigger Academy.
+**No NOC da Linknet, desde agosto de 2026.** Acompanho alarmes e gráficos no Zabbix e no Grafana e diagnostico sinal, status e autenticação de ONUs e ONTs em redes GPON/FTTH. Provisiono ONUs e configuro roteadores de assinantes por plataforma ACS. Registro os incidentes no IXC Provedor. Trabalho de casa.
+
+**Em produção, desde novembro de 2025.** Desenvolvo sob encomenda sistemas de gestão para o agronegócio, em Python e Django com PostgreSQL, e opero os servidores Ubuntu onde eles rodam:
+
+- Stacks em Docker Compose com aplicação, workers, PostgreSQL e Redis, atrás do Nginx com HTTPS (Let's Encrypt e HSTS).
+- Deploy automatizado em Bash com backup prévio, build, migrações, healthcheck e rollback automático.
+- Firewall UFW liberando só SSH, HTTP e HTTPS, SSH só por chave, e PostgreSQL e Redis sem porta publicada.
+- Backup com pg_dump e restauração testada, com procedimento documentado.
+- CI no GitHub Actions com testes automatizados e checagem de migrações pendentes.
+
+**Karasoku, minha plataforma de observabilidade, no ar desde novembro de 2026.** Ela acompanha 3 servidores e 11 aplicações. Agentes Grafana Alloy enviam métricas ao VictoriaMetrics e logs ao Loki por uma rede privada WireGuard. Sondas HTTP/TLS testam cada aplicação, o Alertmanager avisa no Telegram, e cada alerta tem um runbook.
+
+## Ferramentas, pela origem
+
+| Origem | Ferramentas |
+|---|---|
+| **No trabalho** | GPON/FTTH, ONUs e ONTs, plataformas ACS, Zabbix, Grafana, IXC Provedor |
+| **Em produção** | Ubuntu Server, Bash, SSH, systemd, Nginx, Gunicorn, Docker Compose, UFW, Let's Encrypt, PostgreSQL, Redis, Celery, GitHub Actions, Python, Django, Django REST Framework, pytest, HTMX |
+| **Observabilidade** | Grafana Alloy, WireGuard, VictoriaMetrics, Loki, Alertmanager, Grafana |
+| **Formação e laboratório** | OWASP Top 10, CWE, MITRE ATT&CK, LGPD, Kali Linux, Nmap, Wireshark, Burp Suite, Hack The Box, TryHackMe |
+
+Nunca trabalhei em cargo de segurança, SOC ou pentest. A última linha da tabela é estudo, não experiência profissional.
+
+## Formação
+
+- **Tecnólogo em Segurança Cibernética**, FIAP, 2026 a 2028, em andamento
+- **Pós-graduação em Engenharia DevOps**, Faculdade Focus, concluída em 2025, 420 h
+- **Tecnólogo em Análise e Desenvolvimento de Sistemas**, UNIASSELVI, concluído em 2025
+- **Google Cybersecurity Certificate**, em andamento: 5 de 9 cursos concluídos em novembro de 2026
+- **Inglês** para leitura de documentação técnica
 
 ## O caminho até aqui
 
-Não cheguei em linha reta.
-
 ```console
 $ traceroute noc
- 1  varejo
- 2  suporte em provedor de internet
- 3  frente de caixa, com apoio temporário ao CPD
- 4  agronegócio e crédito rural
- 5  noc, analista de redes n2
+ 1  jovem aprendiz e varejo                         2020–2022
+ 2  suporte n1 em provedor de internet              2022–2023
+ 3  frente de caixa, com apoio temporário ao CPD    2023–2024
+ 4  administrativo no agronegócio e crédito rural   2024–2026
+ 5  noc, analista de redes n2                       2026
 ```
-
-## Ferramentas
-
-Separadas pela origem do que sei: quanto mais forte o vermelho, mais perto do trabalho real.
-
-**No trabalho**
-
-![GPON/FTTH](assets/selos/gpon-ftth.svg)
-![ONU e ONT](assets/selos/onu-e-ont.svg)
-![OLTs](assets/selos/olts.svg)
-![Zabbix](assets/selos/zabbix.svg)
-![Grafana](assets/selos/grafana.svg)
-![Plataformas ACS](assets/selos/plataformas-acs.svg)
-![IXC Provedor](assets/selos/ixc-provedor.svg)
-
-**Nos meus servidores**
-
-![Ubuntu Server](assets/selos/ubuntu-server.svg)
-![Bash](assets/selos/bash.svg)
-![systemd](assets/selos/systemd.svg)
-![Nginx](assets/selos/nginx.svg)
-![Docker Compose](assets/selos/docker-compose.svg)
-![UFW](assets/selos/ufw.svg)
-![Let's Encrypt](assets/selos/let-s-encrypt.svg)
-![PostgreSQL](assets/selos/postgresql.svg)
-![GitHub Actions](assets/selos/github-actions.svg)
-![Python](assets/selos/python.svg)
-![Django](assets/selos/django.svg)
-![Celery](assets/selos/celery.svg)
-![Redis](assets/selos/redis.svg)
-
-**Em laboratório e estudo**
-
-![Kali Linux](assets/selos/kali-linux.svg)
-![Nmap](assets/selos/nmap.svg)
-![Wireshark](assets/selos/wireshark.svg)
-![Burp Suite](assets/selos/burp-suite.svg)
-![Hack The Box](assets/selos/hack-the-box.svg)
-![TryHackMe](assets/selos/tryhackme.svg)
-![PortSwigger Academy](assets/selos/portswigger-academy.svg)
-
-Nunca trabalhei em cargo de segurança, SOC ou pentest. Busco a minha primeira oportunidade na área.
 
 ## Contribuições
 
-Quase tudo o que faço fica em repositórios privados, mas a cobra não perdoa nenhum dia.
+O código dos sistemas de clientes fica em repositórios privados, e o gráfico conta essas contribuições sem mostrar o conteúdo.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frraz/Frraz/output/github-contribution-grid-snake-dark.svg">
@@ -84,6 +67,8 @@ Quase tudo o que faço fica em repositórios privados, mas a cobra não perdoa n
 
 ## Vamos conversar
 
-Procuro função técnica em redes, NOC, infraestrutura Linux, DevOps, DevSecOps ou segurança, de preferência remota. Se a sua equipe tem uma vaga assim, [me escreva](mailto:warley.ferraz.wf@gmail.com).
+Procuro vaga remota em infraestrutura Linux e sustentação, NOC e redes ou DevOps. Para entrar em segurança, aceito começar por estágio. Aceito CLT, PJ e escala de turnos. **[Me escreva por e-mail](mailto:warley.ferraz.wf@gmail.com)** ou pelo [LinkedIn](https://www.linkedin.com/in/warley-ferraz-almeida/).
 
 Se estiver só de passagem, [meu site](https://warley.ferzion.com.br) tem um terminal e nove selos escondidos. Quem reúne todos libera um tema que começa bloqueado.
+
+<!-- Revisado em 2026-11-19 a partir de curriculo/curriculo_mestre.md. Revisar quando: mudar de emprego, concluir o certificado do Google, publicar o repositório do Karasoku ou de um projeto de cliente, mudar o foco da busca. -->
