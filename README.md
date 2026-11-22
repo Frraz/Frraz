@@ -13,7 +13,7 @@ Também estou no [LinkedIn](https://www.linkedin.com/in/warley-ferraz-almeida/) 
 
 ## O que eu faço
 
-**No NOC da Linknet, desde agosto de 2026.** Acompanho alarmes e gráficos no Zabbix e no Grafana e diagnostico sinal, status e autenticação de ONUs e ONTs em redes GPON/FTTH. Provisiono ONUs e configuro roteadores de assinantes por plataforma ACS. Registro os incidentes no IXC Provedor. Trabalho de casa.
+**No NOC da Linknet, desde agosto de 2026.** Acompanho alarmes e gráficos no Zabbix e no Grafana e diagnostico sinal, status e autenticação de ONUs e ONTs em redes GPON/FTTH. Provisiono ONUs e configuro roteadores de assinantes por plataforma ACS. Registro os incidentes no IXC Provedor. Trabalho híbrido.
 
 **Em produção, desde novembro de 2025.** Desenvolvo sob encomenda sistemas de gestão para o agronegócio, em Python e Django com PostgreSQL, e opero os servidores Ubuntu onde eles rodam:
 
@@ -23,7 +23,7 @@ Também estou no [LinkedIn](https://www.linkedin.com/in/warley-ferraz-almeida/) 
 - Backup com pg_dump e restauração testada, com procedimento documentado.
 - CI no GitHub Actions com testes automatizados e checagem de migrações pendentes.
 
-**Karasoku, minha plataforma de observabilidade, no ar desde novembro de 2026.** Ela acompanha 3 servidores e 11 aplicações. Agentes Grafana Alloy enviam métricas ao VictoriaMetrics e logs ao Loki por uma rede privada WireGuard. Sondas HTTP/TLS testam cada aplicação, o Alertmanager avisa no Telegram, e cada alerta tem um runbook.
+**Karasoku, minha plataforma de observabilidade, no ar desde novembro de 2026.** Ela acompanha 3 servidores e 12 aplicações. Agentes Grafana Alloy enviam métricas ao VictoriaMetrics e logs ao Loki por uma rede privada WireGuard. Sondas HTTP/TLS testam cada aplicação, o Alertmanager avisa no Telegram, e cada alerta tem um runbook.
 
 ## Ferramentas, pela origem
 
@@ -41,7 +41,7 @@ Nunca trabalhei em cargo de segurança, SOC ou pentest. A última linha da tabel
 - **Tecnólogo em Segurança Cibernética**, FIAP, 2026 a 2028, em andamento
 - **Pós-graduação em Engenharia DevOps**, Faculdade Focus, concluída em 2025, 420 h
 - **Tecnólogo em Análise e Desenvolvimento de Sistemas**, UNIASSELVI, concluído em 2025
-- **Google Cybersecurity Certificate**, em andamento: 5 de 9 cursos concluídos em novembro de 2026
+- **Google Cybersecurity Certificate**, em andamento: 6 de 9 cursos concluídos em novembro de 2026
 - **Inglês** para leitura de documentação técnica
 
 ## O caminho até aqui
